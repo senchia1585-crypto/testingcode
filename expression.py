@@ -33,11 +33,29 @@ time.sleep(3)
 print("Do you believe in GOD? You only got two option please make your choice within 3 seconds.....")
 time.sleep(3)
 input=input("PLEASE CHOOSE TRUE OR FALSE: ")
-if input=="True":
+if input=="TRUE":
+    time.sleep(2)
+    print("............")
+    time.sleep(3)
     print("Thank your believe in GOD.")
-elif input=="False":
+elif input=="FALSE":
+    time.sleep(2)
+    print("............")
+    time.sleep(3)
     print("Oh! Bro you don't believe in GOD, I am sorry about that")
+    print("...........")
+    time.sleep(2)
+    print("Are you sure about that? You only got two option, please choose again")
+    time.sleep(5)
     print("You should choose True, because God is the best thing in the world, if you don't believe in God, you will be lost in the world")
+    time.sleep(3)
+    print("..........")
+    time.sleep(2)
+    print("......")
+    time.sleep(1)
+    print("...")
+    time.sleep(2)
+    print("You should choose again")
 else:
     time.sleep(3)
     print("............")
@@ -55,7 +73,7 @@ else:
 view_of_jason = 2
 jason_view="Youtube" # view of jason channel on youtube
 print(jason_view +"is the good social media platform")
-print("jason today had view"+" "+str(view_of_jason))  
+print("jason today had view"+" "+str(view_of_jason))    
 # str() is function that can convert interger or float to string1
 view=view_of_jason
 no_view=view_of_jason

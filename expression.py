@@ -81,7 +81,7 @@ no_view=view_of_jason
 print(view)
 print(no_view)
 jack_view=6
-total_view=jack_view + view_of_jason
+total_view=view_of_jason+jack_view
 print("Both people's total view today is"+" "+ str(total_view))
 # str function can convert interger to string and then can add togerther with string
 good_quality_of_jason_channel=True
